@@ -59,12 +59,6 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-}
-
 /* Features Section */
 #features {
     padding: 7% 15%;
@@ -121,4 +115,11 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
 }
